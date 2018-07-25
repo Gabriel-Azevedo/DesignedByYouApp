@@ -21,7 +21,7 @@ class ViewController: UIViewController {
   var currentAngleY: Float = 0.0
   let colorsArray = ["blue", "green", "yellow", "red"]
   let carPartsArray = ["Portas", "Capo", "Teto", "Interior", "Rodas"]
-  var currentCarPartCellSelected: IndexPath?
+  var currentCarPartCellSelected = IndexPath(item: 0, section: 0)
 
   @IBOutlet weak var colorCollectionView: UICollectionView!
   @IBOutlet weak var carPartsCollectionView: UICollectionView!
@@ -41,10 +41,7 @@ class ViewController: UIViewController {
     colorView.layer.shadowOffset = CGSize.zero
     colorView.layer.shadowRadius = 3
 
-    carPartsView.layer.shadowColor = UIColor.darkGray.cgColor
-    carPartsView.layer.shadowOpacity = 0.5
-    carPartsView.layer.shadowOffset = CGSize.zero
-    carPartsView.layer.shadowRadius = 3
+    carPartsCollectionView.backgroundColor = UIColor(red: 246.0/255.0, green: 247.0/255.0, blue: 248.0/255.0, alpha: 1.0)
 
     initializeSCNScene()
   }
@@ -57,8 +54,6 @@ class ViewController: UIViewController {
 
     let asset = MDLAsset(url: url)
     car = asset.object(at: 0) as! MDLMesh
-
-    //let scene = SCNScene()
 
     carGeometry = SCNGeometry(mdlMesh: car)
     let material = SCNMaterial()
@@ -103,25 +98,28 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
       var backgroundColor: UIColor?
       switch colorsArray[indexPath.row] {
       case "yellow":
-        backgroundColor = UIColor.yellow
+        backgroundColor = UIColor(red: 245.0/255.0, green: 167.0/255.0, blue: 35.0/255.0, alpha: 1.0)
       case "red":
-        backgroundColor = UIColor.red
+        backgroundColor = UIColor(red: 254.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
       case "blue":
-        backgroundColor = UIColor.blue
+        backgroundColor = UIColor(red: 73.0/255.0, green: 144.0/255.0, blue: 266.0/255.0, alpha: 1.0)
       case "green":
-        backgroundColor = UIColor.green
+        backgroundColor = UIColor(red: 126.0/255.0, green: 211.0/255.0, blue: 32.0/255.0, alpha: 1.0)
       default:
         backgroundColor = UIColor.gray
       }
-      cell.view.backgroundColor = backgroundColor
-      cell.view.layer.cornerRadius = cell.frame.size.width/2
-      cell.view.clipsToBounds = true
+      cell.circleView.backgroundColor = backgroundColor
+      cell.circleView.layer.cornerRadius = cell.frame.size.width / 2
+      cell.circleView.clipsToBounds = true
       return cell
     } else {
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "carPartCell", for: indexPath) as! CarPartCollectionViewCell
       let carPartName = carPartsArray[indexPath.row]
       if let image = UIImage(named: carPartName) {
         cell.iconImageView.image = image
+      }
+      if indexPath == currentCarPartCellSelected {
+        cell.wasSelected = true
       }
       cell.partNameLabel.text = carPartName
       return cell
@@ -131,7 +129,6 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     if collectionView.tag == 1 {
       let selectedColor = colorsArray[indexPath.row]
-
       let material = SCNMaterial()
       material.diffuse.contents = UIImage(named: "\(selectedColor).jpg")
       if let car = carGeometry {
@@ -140,10 +137,8 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     } else {
       let selectedCell = collectionView.cellForItem(at: indexPath) as! CarPartCollectionViewCell
       selectedCell.wasSelected = true
-      if let previousSelectedIndexPath = currentCarPartCellSelected {
-        let previousCell = collectionView.cellForItem(at: previousSelectedIndexPath) as! CarPartCollectionViewCell
-        previousCell.wasSelected = false
-      }
+      let previousCell = collectionView.cellForItem(at: currentCarPartCellSelected) as! CarPartCollectionViewCell
+      previousCell.wasSelected = false
       currentCarPartCellSelected = indexPath
     }
   }
@@ -152,7 +147,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     if collectionView.tag == 0 {
       return CGSize(width: (CGFloat((Float(collectionView.frame.size.width) / Float(carPartsArray.count))) - 10), height: collectionView.frame.size.height)
     } else {
-      return CGSize(width: 100.0, height: 100.0)
+      return CGSize(width: 100.0, height: 130.0)
     }
   }
 }

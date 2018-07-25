@@ -20,7 +20,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PD6-N4-SL9">
-                        <rect key="frame" x="0.0" y="0.0" width="164" height="171"/>
+                        <rect key="frame" x="8" y="8" width="148" height="155"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Brk-wT-DVT">
@@ -36,14 +36,14 @@
             </view>
             <constraints>
                 <constraint firstItem="Brk-wT-DVT" firstAttribute="leading" secondItem="eMu-hy-ZIr" secondAttribute="leading" constant="20" id="2B8-4f-WOy"/>
-                <constraint firstItem="PD6-N4-SL9" firstAttribute="top" secondItem="eMu-hy-ZIr" secondAttribute="top" id="4S9-to-zpA"/>
+                <constraint firstItem="PD6-N4-SL9" firstAttribute="top" secondItem="eMu-hy-ZIr" secondAttribute="top" constant="8" id="4S9-to-zpA"/>
                 <constraint firstAttribute="bottom" secondItem="eUm-GA-UWs" secondAttribute="bottom" constant="20" id="6g3-zw-jUh"/>
-                <constraint firstItem="PD6-N4-SL9" firstAttribute="leading" secondItem="eMu-hy-ZIr" secondAttribute="leading" id="9rV-MQ-0d4"/>
+                <constraint firstItem="PD6-N4-SL9" firstAttribute="leading" secondItem="eMu-hy-ZIr" secondAttribute="leading" constant="8" id="9rV-MQ-0d4"/>
                 <constraint firstItem="eUm-GA-UWs" firstAttribute="top" secondItem="Brk-wT-DVT" secondAttribute="bottom" constant="8" id="BDh-jq-Xau"/>
                 <constraint firstAttribute="trailing" secondItem="Brk-wT-DVT" secondAttribute="trailing" constant="20" id="KUU-HF-Utw"/>
-                <constraint firstAttribute="bottom" secondItem="PD6-N4-SL9" secondAttribute="bottom" id="LtO-bg-1f8"/>
+                <constraint firstAttribute="bottom" secondItem="PD6-N4-SL9" secondAttribute="bottom" constant="8" id="LtO-bg-1f8"/>
                 <constraint firstItem="eUm-GA-UWs" firstAttribute="top" secondItem="Brk-wT-DVT" secondAttribute="bottom" constant="8" id="Onu-Tc-CFi"/>
-                <constraint firstAttribute="trailing" secondItem="PD6-N4-SL9" secondAttribute="trailing" id="Qj7-Vf-Y3x"/>
+                <constraint firstAttribute="trailing" secondItem="PD6-N4-SL9" secondAttribute="trailing" constant="8" id="Qj7-Vf-Y3x"/>
                 <constraint firstAttribute="trailing" secondItem="eUm-GA-UWs" secondAttribute="trailing" constant="20" id="bN4-bl-tfY"/>
                 <constraint firstItem="Brk-wT-DVT" firstAttribute="top" secondItem="eMu-hy-ZIr" secondAttribute="top" constant="20" id="uQF-c8-FL5"/>
                 <constraint firstItem="eUm-GA-UWs" firstAttribute="leading" secondItem="eMu-hy-ZIr" secondAttribute="leading" constant="20" id="ubW-Qq-bce"/>

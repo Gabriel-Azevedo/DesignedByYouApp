@@ -15,4 +15,6 @@ class ColorCollectionViewCell: UICollectionViewCell {
 
   @IBOutlet weak var view: UIView!
   
+  @IBOutlet weak var circleView: UIView!
+  
 }

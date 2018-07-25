@@ -17,6 +17,7 @@
 		232C99822107E3AD0090D8C7 /* Interior.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997D2107E3AD0090D8C7 /* Interior.png */; };
 		232C99832107E3AD0090D8C7 /* Portas.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997E2107E3AD0090D8C7 /* Portas.png */; };
 		232C99842107E3AD0090D8C7 /* Rodas.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997F2107E3AD0090D8C7 /* Rodas.png */; };
+		232C998A2108C71B0090D8C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C99892108C71B0090D8C7 /* Default-568h@2x.png */; };
 		23D2527D2106957D00009B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2527C2106957D00009B21 /* AppDelegate.swift */; };
 		23D2527F2106957D00009B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2527E2106957D00009B21 /* ViewController.swift */; };
 		23D252822106957D00009B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D252802106957D00009B21 /* Main.storyboard */; };
@@ -59,6 +60,7 @@
 		232C997D2107E3AD0090D8C7 /* Interior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interior.png; sourceTree = "<group>"; };
 		232C997E2107E3AD0090D8C7 /* Portas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portas.png; sourceTree = "<group>"; };
 		232C997F2107E3AD0090D8C7 /* Rodas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rodas.png; sourceTree = "<group>"; };
+		232C99892108C71B0090D8C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		23D252792106957D00009B21 /* DesignedByMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignedByMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D2527C2106957D00009B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D2527E2106957D00009B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,9 +106,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		232C99852108C6780090D8C7 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				23D252AD2107837A00009B21 /* BMW X5 4.obj */,
+				23D252B12107ABB200009B21 /* red.jpg */,
+				232C99732107C07C0090D8C7 /* blue.jpg */,
+				232C99712107C07C0090D8C7 /* green.jpg */,
+				232C99722107C07C0090D8C7 /* yellow.jpg */,
+				232C997C2107E3AD0090D8C7 /* Capo.png */,
+				232C997D2107E3AD0090D8C7 /* Interior.png */,
+				232C997E2107E3AD0090D8C7 /* Portas.png */,
+				232C997F2107E3AD0090D8C7 /* Rodas.png */,
+				232C997B2107E3AD0090D8C7 /* Teto.png */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		232C99862108C6930090D8C7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				23D252802106957D00009B21 /* Main.storyboard */,
+				232C99772107E0BC0090D8C7 /* CarPartCollectionViewCell.xib */,
+				23D252B32107AFF100009B21 /* ColorCollectionViewCell.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		232C99872108C6A10090D8C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				23D2527E2106957D00009B21 /* ViewController.swift */,
+				232C99792107E1140090D8C7 /* CarPartCollectionViewCell.swift */,
+				23D252B52107B04800009B21 /* ColorCollectionViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		232C99882108C6AF0090D8C7 /* Miscellaneous */ = {
+			isa = PBXGroup;
+			children = (
+				23D2527C2106957D00009B21 /* AppDelegate.swift */,
+				23D252862106957D00009B21 /* Assets.xcassets */,
+				23D252882106957D00009B21 /* LaunchScreen.storyboard */,
+				23D252832106957D00009B21 /* DesignedByMeApp.xcdatamodeld */,
+			);
+			path = Miscellaneous;
+			sourceTree = "<group>";
+		};
 		23D252702106957D00009B21 = {
 			isa = PBXGroup;
 			children = (
+				232C99892108C71B0090D8C7 /* Default-568h@2x.png */,
 				23D2527B2106957D00009B21 /* DesignedByMeApp */,
 				23D252932106957D00009B21 /* DesignedByMeAppTests */,
 				23D2529E2106957E00009B21 /* DesignedByMeAppUITests */,
@@ -127,27 +178,11 @@
 		23D2527B2106957D00009B21 /* DesignedByMeApp */ = {
 			isa = PBXGroup;
 			children = (
-				23D252B12107ABB200009B21 /* red.jpg */,
-				232C99732107C07C0090D8C7 /* blue.jpg */,
-				232C99712107C07C0090D8C7 /* green.jpg */,
-				232C99722107C07C0090D8C7 /* yellow.jpg */,
-				232C997C2107E3AD0090D8C7 /* Capo.png */,
-				232C997D2107E3AD0090D8C7 /* Interior.png */,
-				232C997E2107E3AD0090D8C7 /* Portas.png */,
-				232C997F2107E3AD0090D8C7 /* Rodas.png */,
-				232C997B2107E3AD0090D8C7 /* Teto.png */,
-				23D252AD2107837A00009B21 /* BMW X5 4.obj */,
-				23D2527C2106957D00009B21 /* AppDelegate.swift */,
-				23D2527E2106957D00009B21 /* ViewController.swift */,
-				23D252802106957D00009B21 /* Main.storyboard */,
-				232C99772107E0BC0090D8C7 /* CarPartCollectionViewCell.xib */,
-				232C99792107E1140090D8C7 /* CarPartCollectionViewCell.swift */,
-				23D252B32107AFF100009B21 /* ColorCollectionViewCell.xib */,
-				23D252B52107B04800009B21 /* ColorCollectionViewCell.swift */,
-				23D252862106957D00009B21 /* Assets.xcassets */,
-				23D252882106957D00009B21 /* LaunchScreen.storyboard */,
 				23D2528B2106957D00009B21 /* Info.plist */,
-				23D252832106957D00009B21 /* DesignedByMeApp.xcdatamodeld */,
+				232C99852108C6780090D8C7 /* Textures */,
+				232C99872108C6A10090D8C7 /* ViewControllers */,
+				232C99862108C6930090D8C7 /* UI */,
+				232C99882108C6AF0090D8C7 /* Miscellaneous */,
 			);
 			path = DesignedByMeApp;
 			sourceTree = "<group>";
@@ -290,6 +325,7 @@
 				232C99762107C07C0090D8C7 /* blue.jpg in Resources */,
 				23D252872106957D00009B21 /* Assets.xcassets in Resources */,
 				232C99752107C07C0090D8C7 /* yellow.jpg in Resources */,
+				232C998A2108C71B0090D8C7 /* Default-568h@2x.png in Resources */,
 				23D252B42107AFF100009B21 /* ColorCollectionViewCell.xib in Resources */,
 				23D252822106957D00009B21 /* Main.storyboard in Resources */,
 			);
@@ -487,6 +523,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DesignedByMeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.citroen.DesignedByMeApp;
@@ -501,6 +538,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DesignedByMeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.citroen.DesignedByMeApp;
