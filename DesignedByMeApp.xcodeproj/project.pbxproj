@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		232C99742107C07C0090D8C7 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232C99712107C07C0090D8C7 /* green.jpg */; };
+		232C99752107C07C0090D8C7 /* yellow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232C99722107C07C0090D8C7 /* yellow.jpg */; };
+		232C99762107C07C0090D8C7 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 232C99732107C07C0090D8C7 /* blue.jpg */; };
+		232C99782107E0BC0090D8C7 /* CarPartCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 232C99772107E0BC0090D8C7 /* CarPartCollectionViewCell.xib */; };
+		232C997A2107E1140090D8C7 /* CarPartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232C99792107E1140090D8C7 /* CarPartCollectionViewCell.swift */; };
+		232C99802107E3AD0090D8C7 /* Teto.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997B2107E3AD0090D8C7 /* Teto.png */; };
+		232C99812107E3AD0090D8C7 /* Capo.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997C2107E3AD0090D8C7 /* Capo.png */; };
+		232C99822107E3AD0090D8C7 /* Interior.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997D2107E3AD0090D8C7 /* Interior.png */; };
+		232C99832107E3AD0090D8C7 /* Portas.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997E2107E3AD0090D8C7 /* Portas.png */; };
+		232C99842107E3AD0090D8C7 /* Rodas.png in Resources */ = {isa = PBXBuildFile; fileRef = 232C997F2107E3AD0090D8C7 /* Rodas.png */; };
 		23D2527D2106957D00009B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2527C2106957D00009B21 /* AppDelegate.swift */; };
 		23D2527F2106957D00009B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2527E2106957D00009B21 /* ViewController.swift */; };
 		23D252822106957D00009B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D252802106957D00009B21 /* Main.storyboard */; };
@@ -15,6 +25,10 @@
 		23D2528A2106957D00009B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D252882106957D00009B21 /* LaunchScreen.storyboard */; };
 		23D252952106957D00009B21 /* DesignedByMeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D252942106957D00009B21 /* DesignedByMeAppTests.swift */; };
 		23D252A02106957E00009B21 /* DesignedByMeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D2529F2106957E00009B21 /* DesignedByMeAppUITests.swift */; };
+		23D252AE2107837A00009B21 /* BMW X5 4.obj in Resources */ = {isa = PBXBuildFile; fileRef = 23D252AD2107837A00009B21 /* BMW X5 4.obj */; };
+		23D252B22107ABB200009B21 /* red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23D252B12107ABB200009B21 /* red.jpg */; };
+		23D252B42107AFF100009B21 /* ColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D252B32107AFF100009B21 /* ColorCollectionViewCell.xib */; };
+		23D252B62107B04800009B21 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D252B52107B04800009B21 /* ColorCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232C99712107C07C0090D8C7 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		232C99722107C07C0090D8C7 /* yellow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellow.jpg; sourceTree = "<group>"; };
+		232C99732107C07C0090D8C7 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
+		232C99772107E0BC0090D8C7 /* CarPartCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarPartCollectionViewCell.xib; sourceTree = "<group>"; };
+		232C99792107E1140090D8C7 /* CarPartCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPartCollectionViewCell.swift; sourceTree = "<group>"; };
+		232C997B2107E3AD0090D8C7 /* Teto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Teto.png; sourceTree = "<group>"; };
+		232C997C2107E3AD0090D8C7 /* Capo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capo.png; sourceTree = "<group>"; };
+		232C997D2107E3AD0090D8C7 /* Interior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Interior.png; sourceTree = "<group>"; };
+		232C997E2107E3AD0090D8C7 /* Portas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Portas.png; sourceTree = "<group>"; };
+		232C997F2107E3AD0090D8C7 /* Rodas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rodas.png; sourceTree = "<group>"; };
 		23D252792106957D00009B21 /* DesignedByMeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignedByMeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D2527C2106957D00009B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D2527E2106957D00009B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +73,10 @@
 		23D2529B2106957E00009B21 /* DesignedByMeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignedByMeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D2529F2106957E00009B21 /* DesignedByMeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignedByMeAppUITests.swift; sourceTree = "<group>"; };
 		23D252A12106957E00009B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D252AD2107837A00009B21 /* BMW X5 4.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BMW X5 4.obj"; sourceTree = "<group>"; };
+		23D252B12107ABB200009B21 /* red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = red.jpg; sourceTree = "<group>"; };
+		23D252B32107AFF100009B21 /* ColorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		23D252B52107B04800009B21 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +127,23 @@
 		23D2527B2106957D00009B21 /* DesignedByMeApp */ = {
 			isa = PBXGroup;
 			children = (
+				23D252B12107ABB200009B21 /* red.jpg */,
+				232C99732107C07C0090D8C7 /* blue.jpg */,
+				232C99712107C07C0090D8C7 /* green.jpg */,
+				232C99722107C07C0090D8C7 /* yellow.jpg */,
+				232C997C2107E3AD0090D8C7 /* Capo.png */,
+				232C997D2107E3AD0090D8C7 /* Interior.png */,
+				232C997E2107E3AD0090D8C7 /* Portas.png */,
+				232C997F2107E3AD0090D8C7 /* Rodas.png */,
+				232C997B2107E3AD0090D8C7 /* Teto.png */,
+				23D252AD2107837A00009B21 /* BMW X5 4.obj */,
 				23D2527C2106957D00009B21 /* AppDelegate.swift */,
 				23D2527E2106957D00009B21 /* ViewController.swift */,
 				23D252802106957D00009B21 /* Main.storyboard */,
+				232C99772107E0BC0090D8C7 /* CarPartCollectionViewCell.xib */,
+				232C99792107E1140090D8C7 /* CarPartCollectionViewCell.swift */,
+				23D252B32107AFF100009B21 /* ColorCollectionViewCell.xib */,
+				23D252B52107B04800009B21 /* ColorCollectionViewCell.swift */,
 				23D252862106957D00009B21 /* Assets.xcassets */,
 				23D252882106957D00009B21 /* LaunchScreen.storyboard */,
 				23D2528B2106957D00009B21 /* Info.plist */,
@@ -235,8 +277,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232C99742107C07C0090D8C7 /* green.jpg in Resources */,
+				23D252AE2107837A00009B21 /* BMW X5 4.obj in Resources */,
+				232C99832107E3AD0090D8C7 /* Portas.png in Resources */,
+				232C99782107E0BC0090D8C7 /* CarPartCollectionViewCell.xib in Resources */,
+				232C99842107E3AD0090D8C7 /* Rodas.png in Resources */,
 				23D2528A2106957D00009B21 /* LaunchScreen.storyboard in Resources */,
+				23D252B22107ABB200009B21 /* red.jpg in Resources */,
+				232C99822107E3AD0090D8C7 /* Interior.png in Resources */,
+				232C99802107E3AD0090D8C7 /* Teto.png in Resources */,
+				232C99812107E3AD0090D8C7 /* Capo.png in Resources */,
+				232C99762107C07C0090D8C7 /* blue.jpg in Resources */,
 				23D252872106957D00009B21 /* Assets.xcassets in Resources */,
+				232C99752107C07C0090D8C7 /* yellow.jpg in Resources */,
+				23D252B42107AFF100009B21 /* ColorCollectionViewCell.xib in Resources */,
 				23D252822106957D00009B21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +316,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				232C997A2107E1140090D8C7 /* CarPartCollectionViewCell.swift in Sources */,
 				23D252852106957D00009B21 /* DesignedByMeApp.xcdatamodeld in Sources */,
 				23D2527F2106957D00009B21 /* ViewController.swift in Sources */,
+				23D252B62107B04800009B21 /* ColorCollectionViewCell.swift in Sources */,
 				23D2527D2106957D00009B21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
